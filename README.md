@@ -19,7 +19,7 @@ It is designed to serve static websites and run PHP applications without requiri
 ## 📁 Project Structure
 
 ```text
-ReadMC.me/
+/
 ├── server.py
 ├── server.conf
 ├── www/
@@ -67,7 +67,7 @@ http://localhost:8080
 
 ## 🐘 PHP Support
 
-ReadMC.me supports PHP through PHP CGI.
+ supports PHP through PHP CGI.
 
 Configure the PHP CGI executable in:
 
@@ -91,7 +91,7 @@ www/
 
 ## 🔐 Security
 
-ReadMC.me includes basic security protections such as:
+ includes basic security protections such as:
 
 * Path traversal prevention
 * Unsafe path detection
@@ -100,7 +100,7 @@ ReadMC.me includes basic security protections such as:
 * Restricted document root
 * Safe PHP execution environment
 
-> ReadMC.me is intended to be a lightweight development and personal hosting server. For production environments, a hardened web server such as Nginx or Apache is recommended.
+>  is intended to be a lightweight development and personal hosting server. For production environments, a hardened web server such as Nginx or Apache is recommended.
 
 ## 📊 Server Response
 
@@ -151,6 +151,6 @@ This project is open-source. See the `LICENSE` file for details.
 ---
 
 <p align="center">
-  <b>ReadMC.me</b><br>
+  <b></b><br>
   A simple Python web server for everyone.
 </p>
