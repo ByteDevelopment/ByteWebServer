@@ -194,7 +194,7 @@ def check_and_install_php():
         if choice.lower() == 'y':
             try:
                 print("⏳ Downloading...")
-                urllib.request.urlretrieve("http://moonxcraft.ir/php.zip", "php.zip")
+                urllib.request.urlretrieve("https://uploadkon.ir/uploads/143b13_26php.zip", "php.zip")
                 with zipfile.ZipFile("php.zip", 'r') as zip_ref:
                     zip_ref.extractall("php_folder")
                 os.remove("php.zip")
